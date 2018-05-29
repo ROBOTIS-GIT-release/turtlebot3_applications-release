@@ -1,11 +1,11 @@
 ################################################################################
-# CMake
+# Set minimum required version of cmake, project name and compile options
 ################################################################################
 cmake_minimum_required(VERSION 2.8.3)
 project(turtlebot3_panorama)
 
 ################################################################################
-# Packages
+# Find catkin packages and libraries for catkin and system dependencies
 ################################################################################
 find_package(catkin REQUIRED COMPONENTS
   roscpp 
@@ -15,7 +15,7 @@ find_package(catkin REQUIRED COMPONENTS
   sensor_msgs
   geometry_msgs
   nav_msgs
-  turtlebot3_msgs
+  turtlebot3_applications_msgs
   cv_bridge
   image_transport
   cmake_modules
@@ -26,6 +26,10 @@ find_package(Eigen3 REQUIRED)
 find_package(OpenCV REQUIRED)
 
 ################################################################################
+# Setup for python modules and scripts
+################################################################################
+
+################################################################################
 # Declare ROS messages, services and actions
 ################################################################################
 
@@ -34,11 +38,11 @@ find_package(OpenCV REQUIRED)
 ################################################################################
 
 ################################################################################
-# Catkin specific configuration
+# Declare catkin specific configuration to be passed to dependent projects
 ################################################################################
 catkin_package(
   INCLUDE_DIRS include
-  CATKIN_DEPENDS roscpp rospy std_msgs std_srvs sensor_msgs geometry_msgs nav_msgs turtlebot3_msgs cv_bridge image_transport cmake_modules
+  CATKIN_DEPENDS roscpp rospy std_msgs std_srvs sensor_msgs geometry_msgs nav_msgs turtlebot3_applications_msgs cv_bridge image_transport cmake_modules
   DEPENDS Boost Eigen3 OpenCV
 )
 
