@@ -1,0 +1,13 @@
+Source: ros-melodic-turtlebot3-automatic-parking-vision
+Section: misc
+Priority: extra
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-ar-track-alvar, ros-melodic-ar-track-alvar-msgs, ros-melodic-catkin, ros-melodic-geometry-msgs, ros-melodic-nav-msgs, ros-melodic-rospy, ros-melodic-sensor-msgs, ros-melodic-std-msgs
+Homepage: http://wiki.ros.org/turtlebot3_automatic_parking_vision
+Standards-Version: 3.9.2
+
+Package: ros-melodic-turtlebot3-automatic-parking-vision
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-ar-track-alvar, ros-melodic-ar-track-alvar-msgs, ros-melodic-geometry-msgs, ros-melodic-joint-state-publisher, ros-melodic-nav-msgs, ros-melodic-robot-state-publisher, ros-melodic-rospy, ros-melodic-rviz, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-turtlebot3-bringup
+Description: Package for TurtleBot3 automatic_parking which uses ar code.
+ This example needs a printed ar code and a TurtleBot3.
