@@ -1,0 +1,12 @@
+Source: ros-melodic-turtlebot3-follow-filter
+Section: misc
+Priority: extra
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: http://wiki.ros.org/turtlebot3_follow_filter
+Standards-Version: 3.9.2
+
+Package: ros-melodic-turtlebot3-follow-filter
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-laser-filters
+Description: turtlebot3_follow_filter package using laser_filters for turtlebot3_follower package
