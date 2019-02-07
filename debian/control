@@ -1,0 +1,13 @@
+Source: ros-melodic-turtlebot3-follower
+Section: misc
+Priority: extra
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-geometry-msgs, ros-melodic-nav-msgs, ros-melodic-rospy, ros-melodic-sensor-msgs, ros-melodic-std-msgs
+Homepage: http://wiki.ros.org/turtlebot3_follower
+Standards-Version: 3.9.2
+
+Package: ros-melodic-turtlebot3-follower
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-geometry-msgs, ros-melodic-nav-msgs, ros-melodic-rospy, ros-melodic-sensor-msgs, ros-melodic-std-msgs
+Description: The follower demo was implemented using a 360 Laser Distance Sensor LDS-01.
+ The classification algorithm is used based on previous fitting with samples of person and obstacles positions to take actions. It follows someone in front of the robot within a 50 centimeter range and 140 degrees.
