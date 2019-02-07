@@ -1,0 +1,43 @@
+ros-melodic-turtlebot3-applications (1.1.0-0stretch) stretch; urgency=high
+
+  * added launch file for automatic_parking node #22 <https://github.com/ROBOTIS-GIT/turtlebot3_applications/issues/22>
+  * created launch and removed .py
+  * modified follower
+  * added follower node runnable from anywhere #25 <https://github.com/ROBOTIS-GIT/turtlebot3_applications/issues/25>
+  * Contributors: Daniel Ingram, Gilbert, Darby Lim, Pyo
+
+ -- Pyo <pyo@robotis.com>  Tue, 22 Jan 2019 15:00:00 -0000
+
+ros-melodic-turtlebot3-applications (1.0.0-0stretch) stretch; urgency=high
+
+  * added turtlebot3_automatic_parking
+  * added turtlebot3_automatic_parking_vision
+  * deleted unused msg
+  * modified msg to use turtlebot3_applications_msg package
+  * merged pull request #18 <https://github.com/ROBOTIS-GIT/turtlebot3_applications/issues/18> #17 <https://github.com/ROBOTIS-GIT/turtlebot3_applications/issues/17> #16 <https://github.com/ROBOTIS-GIT/turtlebot3_applications/issues/16> #14 <https://github.com/ROBOTIS-GIT/turtlebot3_applications/issues/14>
+  * Contributors: Darby Lim, Leon Jung, Gilbert, Pyo
+
+ -- Pyo <pyo@robotis.com>  Mon, 28 May 2018 15:00:00 -0000
+
+ros-melodic-turtlebot3-applications (0.2.0-0stretch) stretch; urgency=high
+
+  * added turtlebot3 automatic parking vision example source code (turtlebot3_automatic_parking_vision)
+  * changes to ar_marker_alvar from ar_pose package (turtlebot3_automatic_parking_vision)
+  * fixed recovering method of automatic parking using vision (turtlebot3_automatic_parking_vision)
+  * added angles of center, start, end into spot filter (turtlebot3_automatic_parking)
+  * Contributors: Leon Jung, Gilbert, Pyo
+
+ -- Pyo <pyo@robotis.com>  Thu, 19 Apr 2018 15:00:00 -0000
+
+ros-melodic-turtlebot3-applications (0.1.0-0stretch) stretch; urgency=high
+
+  * added turtlebot3_automatic_parking pkg
+  * added turtlebot3_follow_filter pkg
+  * added turtlebot3_follower pkg
+  * added turtlebot3_automatic_parking pkg
+  * refactoring to release
+  * Contributors: Ashe, Chris, Leon Jung, Darby Lim, Gilbert, Pyo
+
+ -- Pyo <pyo@robotis.com>  Tue, 13 Mar 2018 15:00:00 -0000
+
+
