@@ -1,0 +1,31 @@
+ros-melodic-turtlebot3-panorama (1.1.0-0bionic) bionic; urgency=high
+
+  * none
+
+ -- Pyo <pyo@robotis.com>  Tue, 22 Jan 2019 15:00:00 -0000
+
+ros-melodic-turtlebot3-panorama (1.0.0-0bionic) bionic; urgency=high
+
+  * deleted unused msg
+  * modified msg to use turtlebot3_applications_msg package
+  * merged pull request #18 <https://github.com/ROBOTIS-GIT/turtlebot3_applications/issues/18> #17 <https://github.com/ROBOTIS-GIT/turtlebot3_applications/issues/17> #16 <https://github.com/ROBOTIS-GIT/turtlebot3_applications/issues/16> #14 <https://github.com/ROBOTIS-GIT/turtlebot3_applications/issues/14>
+  * Contributors: Darby Lim, Leon Jung, Gilbert, Pyo
+
+ -- Pyo <pyo@robotis.com>  Mon, 28 May 2018 15:00:00 -0000
+
+ros-melodic-turtlebot3-panorama (0.2.0-0bionic) bionic; urgency=high
+
+  * fixed typo
+  * Contributors: Pyo
+
+ -- Pyo <pyo@robotis.com>  Thu, 19 Apr 2018 15:00:00 -0000
+
+ros-melodic-turtlebot3-panorama (0.1.0-0bionic) bionic; urgency=high
+
+  * added turtlebot3_automatic_parking pkg
+  * refactoring to release
+  * Contributors: Chris, Darby Lim
+
+ -- Pyo <pyo@robotis.com>  Tue, 13 Mar 2018 15:00:00 -0000
+
+
